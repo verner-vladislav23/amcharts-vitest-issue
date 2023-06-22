@@ -1,0 +1,32 @@
+{
+    "compilerOptions": {
+        "noImplicitAny": true,
+        "lib": [
+            "ES2020",
+            "DOM",
+            "DOM.Iterable"
+        ],
+        "target": "es6",
+        "jsx": "react",
+        "module": "esnext",
+        "moduleResolution": "Node",
+        "experimentalDecorators": true,
+        "allowSyntheticDefaultImports": true,
+        "resolveJsonModule": true,
+        "allowJs": true,
+        "skipLibCheck": true,
+        "plugins": [{ "name": "typescript-plugin-css-modules" }],
+        "declaration": true,
+        "outDir": "./dist",
+        "baseUrl": "./src",
+        "typeRoots": ["./node_modules/@types", "./src/@types"]
+    },
+    "include": ["src/**/*"],
+    "exclude": [
+        "**/__mocks__/**/*",
+        "**/__tests__/**/*",
+        "**/build/**/*",
+        "**/dist/**/*",
+        "**/node_modules/**/*"
+    ]
+}

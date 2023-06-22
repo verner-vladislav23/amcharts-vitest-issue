@@ -1,0 +1,15 @@
+node_modules
+.vscode
+**/.DS_Store
+dist/
+.idea
+**/.env
+.turbo
+**/storageState.json
+**/test-results/
+**/tests/
+**playwright-report/
+**/playwright/.cache/
+**/junit_report.xml
+coverage
+
